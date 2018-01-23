@@ -1,7 +1,7 @@
 class MinStack {
 public:
     stack<int> s1;   //常规功能的stack
-    stack<int> s2;   //最小stack
+    stack<int> s2;   //存储最小值的stack
     /** initialize your data structure here. */
     MinStack() {
         
